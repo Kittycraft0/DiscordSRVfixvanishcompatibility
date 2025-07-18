@@ -179,6 +179,7 @@ publishing {
 repositories {
     mavenLocal()
     mavenCentral()
+    maven("https://jitpack.io")
     maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
     maven("https://repo.papermc.io/repository/maven-public/")
     maven("https://oss.sonatype.org/content/repositories/snapshots")
@@ -276,7 +277,7 @@ dependencies {
     compileOnly("com.comphenix.protocol:ProtocolLib:4.5.0")
 
     // vanish hooks
-    compileOnly("de.myzelyam:SuperVanish:6.2.0")
+    compileOnly("com.github.LeonMangler:SuperVanish:6.2.18-3")
 
     // permissions hooks
     compileOnly("net.luckperms:api:5.4")
