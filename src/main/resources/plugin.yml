@@ -1,4 +1,4 @@
-name: DiscordSRV
+name: DiscordSRV-vanish
 version: ${version}
 description: The most powerful, configurable, open-source Discord bridge plugin out there.
 author: iwbmo&Scarsz
